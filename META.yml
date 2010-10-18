@@ -1,0 +1,26 @@
+---
+name: CHI-Driver-TokyoCabinet
+version: 0.0.1
+author:
+  - 'Jiří Pavlovský <jira@getnet.cz>'
+abstract: Use TokyoCabinet for cache storage
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  CHI: 0.241
+  TokyoCabinet: 0
+build_requires:
+  CHI: 0
+  Test::Class: 0
+  Test::More: 0
+provides:
+  CHI::Driver::TokyoCabinet:
+    file: lib/CHI/Driver/TokyoCabinet.pm
+    version: 0.0.1
+  CHI::t::Driver::TokyoCabinet:
+    file: lib/CHI/t/Driver/TokyoCabinet.pm
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
